@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-kafka-avro-consumer",
+  "version": "1.0.0",
+  "description": "Consumidor Kafka",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "kafka-node-avro": "^4.3.0",    
+    "uuid": "^8.3.2"
+  }
+}
